@@ -3,10 +3,10 @@ var scoreText;
 
 var createHud = function() {
     var hudTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
-
+    
     // Create a Text Block that can display the current score
     scoreText = new BABYLON.GUI.TextBlock();
-    scoreText.fontFamily = "Comic Sans, Comic Sans MS";
+    scoreText.fontFamily = "'Bebas Neue', cursive";
     scoreText.color = "white";
     scoreText.fontSize = 48;
     scoreText.verticalAlignment = BABYLON.GUI.TextBlock.VERTICAL_ALIGNMENT_TOP;
